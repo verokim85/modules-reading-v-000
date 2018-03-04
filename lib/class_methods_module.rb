@@ -1,9 +1,6 @@
-class Dancer
-  include Dance
+module MetaDancing
  
-  attr_accessor :name
- 
-  def initialize(name)
-    @name = name
+  def metadata
+    "This class produces objects that love to dance."
   end
 end
