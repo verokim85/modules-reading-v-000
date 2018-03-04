@@ -7,7 +7,7 @@ class Dancer
 end
 
 class Dancer
-  include Dance
+  # include Dance
 
   attr_accessor :name
 
@@ -15,7 +15,7 @@ class Dancer
     @name = name
   end
 end
-
-class Dancer
-  extend MetaDancing
+# 
+# class Dancer
+#   extend MetaDancing
 end
